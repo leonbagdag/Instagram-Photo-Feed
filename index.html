@@ -1,0 +1,28 @@
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Excuses excuses</title>
+</head>
+<body>
+    <div class="center">
+        <h1>OMG! you will not believe me but...</h1>
+        <h2 id="excuse"></h2>
+    </div>
+        <script>
+            /*Arrays*/
+            let who = ['The dog','My granma','His turtle','My bird'];
+            let what = ['eat','pissed','crushed','broked'];
+            let when = ['before the class','right in time','when I finished','during my lunch','while I was praying'];
+            /*Random*/
+            var randomWho = who[Math.floor(Math.random() * who.length)];
+            var randomWhat = what[Math.floor(Math.random() * what.length)];
+            var randomWhen = when[Math.floor(Math.random() * when.length)];
+            /*innerHtml*/
+            var excuse = document.getElementById("excuse");
+            /*Function new excuse*/
+            function MyExcuse() {
+                excuse.innerHTML = randomWho + " " + randomWhat + " " + randomWhen;}
+            /*Onload*/
+            window.onLoad = MyExcuse();
+        </script>
+</body>
+</html>
