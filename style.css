@@ -24,7 +24,7 @@ h1, h2 {
 }
 
 
-/* Post */
+
 .post {
     background-color: white;
     height: 570px;
@@ -35,7 +35,7 @@ h1, h2 {
     width: 450px;
 }
 
-/* Post Header */
+
 .post-header {
     display: flex;
     justify-content: space-between;
@@ -55,7 +55,7 @@ h1, h2 {
 }
 
 
-/* Post Image */
+
 .post-image {
     background-image: url(https://picsum.photos/200);
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@ h1, h2 {
     width: 450px;
 }
 
-/* Post Icons Section */
+
 .icons-section {
     display: flex;
     justify-content: space-between;
@@ -78,7 +78,8 @@ h1, h2 {
     padding-right: .5rem;
 }
 
-/* Post Comments */
+
 .coments {
     padding: 0 1rem;
+    text-align: justify;
 }
