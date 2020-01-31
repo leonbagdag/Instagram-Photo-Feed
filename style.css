@@ -1,4 +1,84 @@
-body{
-	text-align: center;
-	margin-top: 150px;
+h1, h2 {
+    display: inline-block;
+    margin: 0;
+}
+
+.bold-text {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Helvetica neue';
+}
+
+.normal-text {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Helvetica neue';
+}
+
+.big-icon {
+    font-size: 30px;
+}
+
+.small-icon {
+    font-size: 25px;
+}
+
+
+/* Post */
+.post {
+    background-color: white;
+    height: 570px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+}
+
+/* Post Header */
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+.header-left {
+    display: flex;
+}
+
+.header-text {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: .5rem;
+    width: 50px;;
+}
+
+
+/* Post Image */
+.post-image {
+    background-image: url(https://picsum.photos/200);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 450px;
+}
+
+/* Post Icons Section */
+.icons-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-content {
+    padding: 1rem;
+}
+
+.icons-content i {
+    padding-right: .5rem;
+}
+
+/* Post Comments */
+.coments {
+    padding: 0 1rem;
 }
